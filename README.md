@@ -22,7 +22,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Jujuy | 10 | |
 | La Pampa | 11 | |
 | La Rioja | 12  | |
-| Mendoza | 13  | |
+| Mendoza | 13  |<li> - [x] </li>|
 | Misiones | 14  | |
 | Neuquén | 15  | |
 | Rio Negro | 16  | |
