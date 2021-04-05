@@ -26,7 +26,7 @@ We will create a geojson file for every district in Argentina.
 | San Luis | 19  | |
 | Santa Cruz | 20  | |
 | Santa Fe | 21  | |
-| Santiago del Estero | |
+| Santiago del Estero | 22 | |
 | Tucumán | 23  | |
 | Tierra del Fuego | 24  | |
 
