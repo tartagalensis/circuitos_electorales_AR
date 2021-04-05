@@ -12,7 +12,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | ------------- | ------------- | ------------- |
 | Ciudad Autónoma de Buenos Aires  | 01  |<li> - [x] </li>|
 | Buenos Aires | 02  |<li> - [x] </li>|
-| Catamarca | 03  | |
+| Catamarca | 03  |<li> - [x] </li>|
 | Córdoba | 04  | |
 | Corrientes | 05  | |
 | Chaco | 06  | |
