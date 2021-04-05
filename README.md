@@ -2,10 +2,10 @@
 Este repositorio contiene los circuitos electorales de cada provincia/distrito de la República Argentina
 Cada distrito está en un archivo geojson que contiene 4 columnas:
 
-* Circuito*
-* Codprov* 
-* Coddepto*
-*  Geometry*
+* Circuito
+* Codprov 
+* Coddepto
+*  Geometry
 
 
 | Distrito  | Codprov | Actualizado |
