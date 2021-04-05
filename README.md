@@ -29,7 +29,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Salta | 17  | |
 | San Juan | 18  | |
 | San Luis | 19  |<li> - [x] </li>|
-| Santa Cruz | 20  | |
+| Santa Cruz | 20  |<li> - [x] </li>|
 | Santa Fe | 21  | |
 | Santiago del Estero | 22 | |
 | Tucumán | 23  | |
