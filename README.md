@@ -30,8 +30,8 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | San Juan | 18  | |
 | San Luis | 19  |<li> - [x] </li>|
 | Santa Cruz | 20  |<li> - [x] </li>|
-| Santa Fe | 21  | |
+| Santa Fe | 21 |<li> - [x] </li>|
 | Santiago del Estero | 22 | |
-| Tucumán | 23  | |
+| Tucumán | 23  |<li> - [x] </li>|
 | Tierra del Fuego | 24  | |
 
