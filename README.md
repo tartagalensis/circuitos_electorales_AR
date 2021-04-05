@@ -11,7 +11,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Distrito  | Codprov | Actualizado |
 | ------------- | ------------- | ------------- |
 | Ciudad Autónoma de Buenos Aires  | 01  |<li> - [x] </li>|
-| Buenos Aires | 02  | |
+| Buenos Aires | 02  |<li> - [x] </li>|
 | Catamarca | 03  | |
 | Córdoba | 04  | |
 | Corrientes | 05  | |
