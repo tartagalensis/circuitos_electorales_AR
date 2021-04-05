@@ -28,5 +28,5 @@ We will create a geojson file for every district in Argentina.
 | Santa Fe | 21  | [ ] |<li> - [x] </li>|
 | Santiago del Estero | 22  | [ ] |<li> - [x] </li>|
 | Tucumán | 23  | [ ] |<li> - [ ] </li>|
-| Tierra del Fuego | 24  | [ ] |<li> - [ ] </li>|
+| Tierra del Fuego | 24  | [ ] | <li>[ ] </li>
 
