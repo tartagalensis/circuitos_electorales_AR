@@ -28,7 +28,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Rio Negro | 16  | |
 | Salta | 17  | |
 | San Juan | 18  | |
-| San Luis | 19  | |
+| San Luis | 19  |<li> - [x] </li>|
 | Santa Cruz | 20  | |
 | Santa Fe | 21  | |
 | Santiago del Estero | 22 | |
