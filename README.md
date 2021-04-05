@@ -5,7 +5,7 @@ We will create a geojson file for every district in Argentina.
 
 | Distrito  | Codprov | Actualizado |
 | ------------- | ------------- | ------------- |
-| Ciudad Autónoma de Buenos Aires  | 01  | - [x] |
+| Ciudad Autónoma de Buenos Aires  | 01  | <li>- [x] </li> |
 | Buenos Aires | 02  | [ ] |
 | Catamarca | 03  | [ ] |
 | Córdoba | 04  | [ ] |
