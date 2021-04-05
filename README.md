@@ -17,7 +17,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Corrientes | 05  | |
 | Chaco | 06  |<li> - [x] </li>|
 | Chubut | 07  |<li> - [x] </li>|
-| Entre Ríos | 08  | |
+| Entre Ríos | 08  |<li> - [x] </li>|
 | Formosa | 09  | |
 | Jujuy | 10 | |
 | La Pampa | 11 | |
