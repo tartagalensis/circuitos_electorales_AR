@@ -35,4 +35,13 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Tucumán | 23  |<li> - [x] </li>|
 | Tierra del Fuego | 24  | |
 
+Fuentes:
 
+https://mapa2.electoral.gov.ar/descargas/ 
+
+https://www.argentina.gob.ar/interior/dine/datoselectorales/secciones
+
+Mapa establecimiento elecciones 
+
+Comentario:
+Algunas provincias no poseen circuitos dibujados, en ese caso fueron dibujadas y poseen algún margen de error
