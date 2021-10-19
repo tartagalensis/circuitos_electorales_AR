@@ -23,11 +23,11 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | La Pampa | 11 |<li> - [x] </li>|
 | La Rioja | 12  | |
 | Mendoza | 13  |<li> - [x] </li>|
-| Misiones | 14  | |
-| Neuquén | 15  | |
+| Misiones | 14  |<li> - [x] </li>|
+| Neuquén | 15  |<li> - [x] </li>|
 | Rio Negro | 16  | |
 | Salta | 17  |<li> - [x] </li>|
-| San Juan | 18  | |
+| San Juan | 18  |<li> - [x] </li>|
 | San Luis | 19  |<li> - [x] </li>|
 | Santa Cruz | 20  |<li> - [x] </li>|
 | Santa Fe | 21 |<li> - [x] </li>|
