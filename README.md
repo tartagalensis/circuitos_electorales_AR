@@ -18,7 +18,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Chaco | 06  |<li> - [x] </li>|
 | Chubut | 07  |<li> - [x] </li>|
 | Entre Ríos | 08  |<li> - [x] </li>|
-| Formosa | 09  ||
+| Formosa | 09  |<li> - [x] </li>|
 | Jujuy | 10 | |
 | La Pampa | 11 | |
 | La Rioja | 12  | |
@@ -26,7 +26,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Misiones | 14  | |
 | Neuquén | 15  | |
 | Rio Negro | 16  | |
-| Salta | 17  | |
+| Salta | 17  |<li> - [x] </li>|
 | San Juan | 18  | |
 | San Luis | 19  |<li> - [x] </li>|
 | Santa Cruz | 20  |<li> - [x] </li>|
