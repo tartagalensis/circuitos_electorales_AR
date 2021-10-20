@@ -25,7 +25,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Mendoza | 13  |<li> - [x] </li>|
 | Misiones | 14  |<li> - [x] </li>|
 | Neuquén | 15  |<li> - [x] </li>|
-| Rio Negro | 16  | |
+| Rio Negro | 16  |<li> - [x] </li>|
 | Salta | 17  |<li> - [x] </li>|
 | San Juan | 18  |<li> - [x] </li>|
 | San Luis | 19  |<li> - [x] </li>|
