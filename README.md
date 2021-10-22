@@ -21,7 +21,7 @@ Cada distrito está en un archivo geojson que contiene 4 columnas:
 | Formosa | 09  |<li> - [x] </li>|
 | Jujuy | 10 |<li> - [x] </li>|
 | La Pampa | 11 |<li> - [x] </li>|
-| La Rioja | 12  | |
+| La Rioja | 12  |<li> - [x] </li>|
 | Mendoza | 13  |<li> - [x] </li>|
 | Misiones | 14  |<li> - [x] </li>|
 | Neuquén | 15  |<li> - [x] </li>|
