@@ -37,3 +37,17 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# macOS
+.DS_Store
+
+# Fuentes 2025 sin procesar (no se versionan, ver README)
+2025_ori/
+
+# Salidas derivadas de conteo_circuitos.ipynb
+circuitos_detalle.csv
+circuitos_resumen.csv
+
+# Notebook de trabajo con rutas locales, fuera del alcance del repo
+comparacion_2025.ipynb
+circuitos_electorales_AR.Rproj
