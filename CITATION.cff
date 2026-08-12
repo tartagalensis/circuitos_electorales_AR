@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "circuitos_electorales_AR: circuitos electorales de la República Argentina"
+message: "Si usás este conjunto de datos, por favor citalo como se indica a continuación."
+type: dataset
+authors:
+  - given-names: Franco
+    family-names: Galeano
+    orcid: "https://orcid.org/0000-0003-3225-7049"
+repository-code: "https://github.com/tartagalensis/circuitos_electorales_AR"
+url: "https://github.com/tartagalensis/circuitos_electorales_AR"
+abstract: >-
+  Cartografía de los circuitos electorales de los 24 distritos de la República
+  Argentina en formato GeoJSON, para dos cortes temporales: 2021 y 2025. Cada
+  distrito es un archivo con los campos circuito, codprov y coddepto, en
+  EPSG:4326. Incluye circuitos reconstruidos manualmente para las provincias
+  que no publican cartografía oficial.
+keywords:
+  - Argentina
+  - circuitos electorales
+  - geografía electoral
+  - GeoJSON
+  - datos electorales
+  - cartografía
+license: CC-BY-4.0
+version: "2025.1"
+date-released: "2026-08-12"
