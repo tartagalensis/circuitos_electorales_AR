@@ -50,7 +50,8 @@ Para contar circuitos usá siempre valores únicos de `circuito`.
 Circuitos únicos por año, excluyendo los marcadores sin código (ver
 [Limitaciones conocidas](#limitaciones-conocidas)). La columna **Comunes** es cuántos
 códigos de 2021 siguen existiendo en 2025, un indicador de cuán comparables son los
-dos cortes en ese distrito.
+dos cortes en ese distrito. El ⚠️ marca los distritos que **renombraron sus circuitos**
+y por lo tanto no se unen directamente entre años.
 
 | Código | Distrito | Archivo | 2021 | 2025 | Δ | Comunes |
 | :---: | --- | --- | ---: | ---: | ---: | ---: |
@@ -77,7 +78,7 @@ dos cortes en ese distrito.
 | 21 | Santa Fe | `SantaFe` | 525 | 558 | +33 | 43 ⚠️ |
 | 22 | Santiago del Estero | `Santiago` | 257 | 257 | 0 | 257 |
 | 23 | Tucumán | `Tucuman` | 274 | 282 | +8 | 274 |
-| 24 | Tierra del Fuego | `TdF` | 25 | 63 | +38 | 15 |
+| 24 | Tierra del Fuego | `TdF` | 25 | 63 | +38 | 15 ⚠️ |
 | | **Total** | | **5553** | **5847** | **+294** | |
 
 ## Cómo usarlo
@@ -129,9 +130,13 @@ gdf["clave"] = gdf.codprov + gdf.coddepto + gdf.circuito
 Son características del dato de origen, no errores de procesamiento. Se documentan
 en lugar de corregirse en silencio.
 
-- **Santa Fe 2025 usa otra convención de códigos.** El código 2025 equivale al de 2021
-  multiplicado por diez (`00001` → `00010`), más 194 subcircuitos intermedios como
-  `00115` o `00142`. Los dos años **no se unen directamente** en este distrito.
+- **Santa Fe y Tierra del Fuego renombraron sus circuitos entre 2021 y 2025.** No es un
+  problema de formato: los distritos cambiaron la nomenclatura, y está corroborado contra
+  las fuentes. En Santa Fe el código 2025 equivale al de 2021 multiplicado por diez
+  (`00001` → `00010`), más 194 subcircuitos intermedios como `00115` o `00142`. En ambos
+  distritos los dos cortes **no se unen directamente** por `circuito`: solo coinciden 43
+  de 525 códigos en Santa Fe y 15 de 25 en Tierra del Fuego. Para series temporales que
+  crucen 2021 y 2025 en estos dos distritos hace falta una tabla de equivalencias.
 - **`coddepto` nulo en 29 features de 2021**: Neuquén (13), Salta (7), San Juan (3),
   Santiago del Estero (3), La Rioja (2) y Corrientes (1). El `codprov` de esos features
   sí está completo.
@@ -146,16 +151,34 @@ en lugar de corregirse en silencio.
 
 ## Circuitos reconstruidos
 
-Varias provincias no publican la cartografía de sus circuitos, o la publican incompleta.
-En esos casos los polígonos fueron dibujados a partir de otras fuentes (radios censales,
-domicilios de establecimientos de votación, mapas en PDF, cartografía municipal) y tienen
-un margen de error mayor.
+Varias provincias no publican la cartografía de sus circuitos, o la publican incompleta,
+desactualizada o en formatos que no se pueden usar. En esos casos los límites fueron
+reconstruidos.
 
-> Sección en preparación: queda pendiente documentar, provincia por provincia, qué fuente
-> se usó, con qué método se dibujó cada circuito y qué grado de confianza tiene el
-> resultado. Los saltos de cobertura entre 2021 y 2025 en Formosa (+43), Tierra del Fuego
-> (+38), San Luis (+33), Misiones (+20) y Neuquén (+16) corresponden en buena medida a
-> este trabajo de reconstrucción.
+El procedimiento parte siempre de los **archivos originales** de cada distrito, y sobre
+esa base cruza:
+
+- **Acordadas y publicaciones de los tribunales electorales**, que son las que definen
+  formalmente qué comprende cada circuito;
+- **georreferenciación de escuelas y establecimientos de votación**, que ancla cada
+  circuito a puntos concretos del territorio;
+- **subdivisiones políticas** ya cartografiadas —municipios, partidos y departamentos—,
+  que aportan los límites exteriores y buena parte de los interiores.
+
+De la combinación de esas tres capas se derivan los polígonos de los circuitos faltantes.
+
+**Esta reconstrucción no está exenta de errores.** Los límites de los circuitos
+reconstruidos son una aproximación, no un dato oficial, y su precisión depende de la
+densidad de establecimientos de votación y del detalle de las acordadas disponibles en
+cada provincia. Es, hasta donde sabemos, lo mejor disponible mientras no exista una
+versión oficial que además sea funcional.
+
+Los saltos de cobertura entre 2021 y 2025 en Formosa (+43), Tierra del Fuego (+38),
+San Luis (+33), Misiones (+20) y Neuquén (+16) corresponden en buena medida a este
+trabajo.
+
+Si tenés cartografía oficial de alguna de estas provincias, o detectás un circuito mal
+trazado, es muy bienvenido un *issue*.
 
 ## Fuentes
 
